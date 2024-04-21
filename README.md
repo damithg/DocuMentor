@@ -54,14 +54,14 @@ Install necessary packages:
 ```
 
 ### Detailed Configuration Parameters
-Logging: Configures the level of logging for the application and for ASP.NET Core framework activities.
-CognitiveServices:
-Endpoint: The base URL for your Azure Cognitive Services resource.
-Key: The subscription key for your Cognitive Services resource.
-FormRecognizer:
-Endpoint: The endpoint URL for your Azure Form Recognizer resource.
-ApiKey: The API key for your Form Recognizer resource.
-ModelId: The model identifier for the specific model you are using; default is set to prebuilt-idDocument for using prebuilt ID document analysis.
+**Logging:** Configures the level of logging for the application and for ASP.NET Core framework activities.
+**CognitiveServices:**
+- **Endpoint:** The base URL for your Azure Cognitive Services resource.
+- **Key:** The subscription key for your Cognitive Services resource.
+**FormRecognizer:**
+- **Endpoint:** The endpoint URL for your Azure Form Recognizer resource.
+- **ApiKey:** The API key for your Form Recognizer resource.
+- **ModelId:** The model identifier for the specific model you are using; default is set to prebuilt-idDocument for using prebuilt ID document analysis.
 
 ### Usage
 
